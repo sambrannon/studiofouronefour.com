@@ -1,182 +1,23 @@
-<!DOCTYPE html>  
-<html dir="ltr" lang="en-US">  
-<head>  
-	<meta charset="utf-8">  
-	<title>Studio four one four | Home</title> 
-	
-	<link rel="shortcut icon" href="wp-content/uploads/2012/01/favicon2.gif" />
-	
-	<meta name="author" content="Branberg Studios"> 
-	<meta name="description" content="Studio four one four is a group of designers that have come together to collectively better their skills."/>
-	<meta name="keywords" content="Milwaukee Design, studio four one four, studio 414, architecture design"/> 
-	<!--[if lt IE 9]>  
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
-	<![endif]--> 
-	<!--[if IE]> 
-		<link rel="stylesheet" href="http://studiofouronefour.com/wp-content/themes/s414/css/ie.css" media="screen" />
-	<![endif]-->
-	<link rel="stylesheet" type="text/css" media="all" href="wp-content/themes/s414/style.css" />
-	<!--<link rel="stylesheet" href="http://studiofouronefour.com/wp-content/themes/s414/css/large.css" media="only screen and (max-width: 9999px) and (min-width: 769px)" />
-	<link rel="stylesheet" href="wp-content/themes/s414/css/medium.css" media="only screen and (max-width: 768px) and (min-width: 321px)" />
-	<link rel="stylesheet" href="wp-content/themes/s414/css/small.css" media="only screen and (max-width: 320px) and (min-width: 5px)" />-->
+---
+layout: default
+---
 
-	<link rel="stylesheet" href="wp-content/themes/s414/css/supersized.css" media="screen" />
-	
-	<script type="text/javascript" src="wp-content/themes/s414/js/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript" src="wp-content/themes/s414/js/supersized.3.1.3.min.js"></script>
-	
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-	
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$("#header").addClass("scroll-header");
-		});
-		$(window).scroll(function() {
-		    if ($(this).scrollTop() > 160) { //I just used 200 for testing
-		        $("#header").addClass("fixed-header").removeClass("scroll-header");
-		    } else {
-		        $("#header").removeClass("fixed-header").addClass("scroll-header"); //same here
-		    }                           
-		});
-	</script>
-	<style type="text/css">#supersized a { z-index:-30; position:absolute; overflow:hidden; top:0; left:0; width:100%; height:100%; background: #e2e2e2 url("wp-content/uploads/2012/01/bg-hatch02.png") 0 0 repeat;}
-	</style>
-	<script type="text/javascript">  
-			
-			jQuery(function($){
-				$.supersized({
-				
-					//Functionality
-					slideshow               :   1,		//Slideshow on/off
-					autoplay				:	1,		//Slideshow starts playing automatically
-					start_slide             :   1,		//Start slide (0 is random)
-					random					: 	0,		//Randomize slide order (Ignores start slide)
-					slide_interval          :   5000,	//Length between transitions
-					transition              :   1, 		//0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-					transition_speed		:	500,	//Speed of transition
-					new_window				:	0,		//Image links open in new window/tab
-					pause_hover             :   0,		//Pause slideshow on hover
-					keyboard_nav            :   1,		//Keyboard navigation on/off
-					performance				:	1,		//0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
-					image_protect			:	1,		//Disables image dragging and right click with Javascript
-					image_path				:	'http://studiofouronefour.com/wp-content/themes/s414/images/', //Default image path
+<div class="home">
 
-					//Size & Position
-					min_width		        :   0,		//Min width allowed (in pixels)
-					min_height		        :   0,		//Min height allowed (in pixels)
-					vertical_center         :   1,		//Vertically center background
-					horizontal_center       :   1,		//Horizontally center background
-					fit_portrait         	:   1,		//Portrait images will not exceed browser height
-					fit_landscape			:   0,		//Landscape images will not exceed browser width
-					
-					//Components
-					navigation              :   1,		//Slideshow controls on/off
-					thumbnail_navigation    :   0,		//Thumbnail navigation
-					slide_counter           :   1,		//Display slide numbers
-					slide_captions          :   1,		//Slide caption (Pull from "title" in slides array)
-					slides 					:  	[		//Slideshow Images
-																																																		
-														{image : 'http://studiofouronefour.com/wp-content/uploads/2012/03/slide.jpg', title : '<a href="/?p=445">Rustic Reinvention &rarr;</a>', url : ''},
-													
-																										
-														{image : 'http://studiofouronefour.com/wp-content/uploads/2012/03/slide1.jpg', title : '<a href="/?p=432">Freeway Loft &rarr;</a>', url : ''},
-													
-																										
-														{image : 'http://studiofouronefour.com/wp-content/uploads/2012/02/sensory_rehab-full.jpg', title : '<a href="/?p=279">Sensor[y Rehab]ilitation &rarr;</a>', url : ''},
-													
-																										
-														{image : 'http://studiofouronefour.com/wp-content/uploads/2012/02/urban_repose-full.jpg', title : '<a href="/?p=289">Urban Repose &rarr;</a>', url : ''},
-													
-																																					]
-												
-				}); 
-		    });
-		    
-		</script>
-	
-<!-- This site is optimized with the Yoast WordPress SEO plugin v1.2.5 - http://yoast.com/wordpress/seo/ -->
-<meta name="description" content="Studio four one four is a Milwaukee design group focused on improving skills. We offer architectural design, interior design, and planning services."/>
-<link rel="canonical" href="index.html" />
-<!-- / Yoast WordPress SEO plugin. -->
+  <h1 class="page-heading">Posts</h1>
 
-<link rel="alternate" type="application/rss+xml" title="Studio four one four &raquo; Feed" href="feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Studio four one four &raquo; Comments Feed" href="comments/feed/index.html" />
-				
-	<script type="text/javascript">//<![CDATA[
-	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount','UA-28551508-1']);
-	_gaq.push(['_trackPageview']);
-	(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	})();
-	//]]></script>
-<link rel='stylesheet' id='NextGEN-css'  href='wp-content/themes/s414/nggallery-ver=1.0.0.css' type='text/css' media='screen' />
-<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles-ver=3.2.css' type='text/css' media='all' />
-<script type='text/javascript' src='http://studiofouronefour.com/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
-<script type='text/javascript' src='wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min-ver=2.9995.js'></script>
-<script type='text/javascript' src='wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min-ver=1.06.js'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php-rsd.xml" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://studiofouronefour.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 3.4.1" />
-<!-- <meta name="NextGEN" version="1.9.3" /> -->
-<link rel="stylesheet" type="text/css" href="wp-content/plugins/wp-recaptcha/recaptcha.css" />	 
-</head>  
-<body class="blog" id="front-page-body">  
-	<div id="hwrap">
-		<div id="header">
-			<div id="navwrap">
-				<h1 id="logo"><a href="index.html" title="Studio four one four">Studio four one four</a></h1>
-				<div class="menu-main-navigation-container"><ul id="nav" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="portfolio/index.html" >Portfolio</a></li>
-<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="people/index.html" >People</a></li>
-<li id="menu-item-348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348"><a href="about/index.html" >About</a></li>
-<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-24"><a href="blog/index.html" >Blog</a></li>
-<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="contact/index.html" >Contact</a></li>
-</ul></div>				<div class="clear"></div>
-			</div><!--/navwrap-->
-		</div><!--/header-->
-	</div><!--/hwrap-->
-	<div id="cwrap" style="background: none;">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-		<!--Control Bar-->
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-	
-	<div id="controls-wrapper" class="load-item">
-		<div id="controls">
-		
-			<!--Slide counter-->
-			<!--<div id="slidecounter">
-				<span class="slidenumber"></span> / <span class="totalslides"></span>
-			</div>-->
-			
-			
-			<a id="nextslide" class="load-item" style="display: block;">NEXT</a>
-			<a id="play-button"><img src="wp-content/themes/s414/images/pause.png" id="pauseplay" /></a>
-			<a id="prevslide" class="load-item" style="display: block; opacity: 0.6;">PREVIOUS</a>
-			
-			<!--Slide captions displayed here-->
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-			<div id="slidecaption"></div>
-			
-			<!--Thumb Tray button-->
-			<!--<a id="tray-button"><img id="tray-arrow" src="http://studiofouronefour.com/img/button-tray-up.png"/></a>-->
-			
-			<!--Navigation-->
-			<!--<ul id="slide-list"></ul>-->
-			
-		</div>
-	</div>
-	
-		
-	</div><!--/cwrap-->
-	<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form-ver=3.09.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"http:\/\/studiofouronefour.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
-/* ]]> */
-</script>
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts-ver=3.2.js'></script>
-</body>  
-</html> 
+</div>
