@@ -58,6 +58,7 @@ body{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   font-size: 14px;
+  background: #e2e2e2 url("../img/bg-hatch02.png") 2px -5px repeat;
 }
 a{
   color: #333;
@@ -138,7 +139,7 @@ h1#logo{
   display: block;
   width: 200px;
   height: 40px;
-  background: url("images/logo3-dual.png") 0 0 no-repeat;
+  background: url("../img/logo3-dual.png") 0 0 no-repeat;
   text-indent: -9999px;
   font-size: 0;
 }
