@@ -10,3 +10,5 @@ linkedin_url:  https://www.linkedin.com/company/studio-four-one-four
 
 # Build settings
 markdown: kramdown
+
+excerpt_separator: <!--more-->
