@@ -106,7 +106,7 @@ img#mainlogo{
 .scroll-header{
   position:absolute;
   bottom: 0;
-  background: url("images/black50.png") 0 0 repeat;
+  background: url("../img/black50.png") 0 0 repeat;
 }
 #header a{
   color: #fff;
@@ -128,7 +128,7 @@ h1#logo{
   display: block;
   width: 250px;
   height: 100px;
-  background: url("images/logo6.png") 0 0 no-repeat;
+  background: url("../img/logo6.png") 0 0 no-repeat;
   text-indent: -9999px;
   font-size: 0;
   position: absolute;
@@ -216,7 +216,7 @@ h1#logo{
 ************************************************************************************************************************************************/
 #controls-wrapper{
   height: 40px;
-  background: url("images/black50.png") 0 0 repeat;
+  background: url("../img/black50.png") 0 0 repeat;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -234,7 +234,7 @@ h1#logo{
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url("images/navsprite.png");
+  background-image: url("../img/navsprite.png");
   background-repeat: no-repeat;
   float: right;
   cursor: pointer;
@@ -281,7 +281,7 @@ h1#logo{
   left:0;
   width:100%;
   height:100%;
-  background: #e2e2e2 url("wp-content/uploads/2012/01/bg-hatch02.png") 0 0 repeat;
+  background: #e2e2e2 url("../img/bg-hatch02.png") 0 0 repeat;
 }
 
 
@@ -328,7 +328,7 @@ h1#logo{
 .posthead h1 a, .posthead h1 span.singletitle{
   display: block;
   height: 40px;
-  background: url("images/white85.png") 0 0 repeat;
+  background: url("../img/white85.png") 0 0 repeat;
   text-decoration: none;
   color: #000;
   font-weight: bold;
@@ -338,7 +338,7 @@ h1#logo{
 }
 .posthead h1 a:hover{
   color: #fff;
-  background: url("images/black70.png") 0 0 repeat;
+  background: url("../img/black70.png") 0 0 repeat;
 }
 .postcontent{
   padding: 20px;
@@ -398,7 +398,7 @@ h1.page-title{
   display: block;
   width: 20px;
   height: 20px;
-  background: url("images/search.png") 0 0 no-repeat;
+  background: url("../img/search.png") 0 0 no-repeat;
   position: absolute;
   top: 6px;
   left: 6px;
@@ -625,7 +625,7 @@ p.form-submit, #recaptcha-submit-btn-area{
     line-height: 26px;
 }
 .project h2 a{
-  background: url("images/white85.png") 0 0 repeat;
+  background: url("../img/white85.png") 0 0 repeat;
     color: #222222;
     display: block;
     font-size: 1em;
@@ -684,7 +684,7 @@ a.view-proj{
   position: relative;
 }
 .project .winnertag{
-  background: url("images/winner3.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/winner3.png") no-repeat scroll 0 0 transparent;
     display: block;
     height: 100px;
     position: absolute;
@@ -709,7 +709,7 @@ a.view-proj{
   max-width: 920px;
 }
 .single-titleblock{
-  background: url("images/white85.png") 0 0 repeat;
+  background: url("../img/white85.png") 0 0 repeat;
     display: block;
     padding: 40px 0 0;
     width: 920px;
@@ -848,7 +848,7 @@ a.personal-site{
   
 }
 a.mem-social{
-  background-image: url("images/s414-socialpack.png");
+  background-image: url("../img/s414-socialpack.png");
   text-indent: -9999px;
   font-size: 0;
   color:#fff;
@@ -1033,9 +1033,9 @@ span.captcha-687{
   font-size: 0;
   color: #fff;
 }
-#socialmedia li.facebook a{background: url("images/social/facebook.png") 0 0 no-repeat;}
-#socialmedia li.linkedin a{background: url("images/social/linkedin.png") 0 0 no-repeat;}
-#socialmedia li.rssfeed a{background: url("images/social/rss.png") 0 0 no-repeat;}
+#socialmedia li.facebook a{background: url("../img/social/facebook.png") 0 0 no-repeat;}
+#socialmedia li.linkedin a{background: url("../img/social/linkedin.png") 0 0 no-repeat;}
+#socialmedia li.rssfeed a{background: url("../img/social/rss.png") 0 0 no-repeat;}
 
 
 
