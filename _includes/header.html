@@ -4,10 +4,10 @@
       <h1 id="logo"><a href="/" title="Studio four one four">Studio four one four</a></h1>
       <div class="menu-main-navigation-container">
         <ul id="nav" class="menu">
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/people">People</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/blog">Blog</a></li>
+          <li {% if page.id == 'portfolio' %}class="current-menu-item"{%endif%}><a href="/portfolio">Portfolio</a></li>
+          <li {% if page.id == 'people' %}class="current-menu-item"{%endif%}><a href="/people">People</a></li>
+          <li {% if page.id == 'about' %}class="current-menu-item"{%endif%}><a href="/about">About</a></li>
+          <li {% if page.id == 'blog' %}class="current-menu-item"{%endif%}><a href="/blog">Blog</a></li>
         </ul>
       </div>
       <div class="clear"></div>
