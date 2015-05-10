@@ -284,6 +284,21 @@ h1#logo{
   background: #e2e2e2 url("../img/bg-hatch02.png") 0 0 repeat;
 }
 
+body.home #cwrap{
+  background: none;
+}
+body.home{
+
+  #cwrap{
+    background: none;
+  }
+  #socialmedia,
+  #sitecredits{
+    display: none;
+  }
+
+}
+
 
 /************************************************************************************************************************************************
 *** BLOG STYLES

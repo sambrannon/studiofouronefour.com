@@ -1,23 +1,12 @@
 ---
-layout: homepage
+layout: default
+id: home
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="controls-wrapper" class="load-item">
+  <div id="controls">
+    <a id="nextslide" class="load-item" style="display: block;">NEXT</a>
+    <a id="play-button"><img src="{{ "/img/pause.png" | prepend: site.baseurl }}" id="pauseplay" /></a>
+    <a id="prevslide" class="load-item" style="display: block; opacity: 0.6;">PREVIOUS</a>
+    <div id="slidecaption"></div>
+  </div>
 </div>
