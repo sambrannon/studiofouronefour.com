@@ -3,39 +3,36 @@
 
   {% include head.html %}
   
-<body class="blog" id="front-page-body">  
-  <div id="hwrap">
-    <div id="header">
-      <div id="navwrap">
-        <h1 id="logo"><a href="/" title="Studio four one four">Studio four one four</a></h1>
-        <div class="menu-main-navigation-container">
-          <ul id="nav" class="menu">
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/people">People</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-          </ul>
+  <body class="blog" id="front-page-body">
+
+    <div id="hwrap">
+      <div id="header">
+        <div id="navwrap">
+          <h1 id="logo"><a href="/" title="Studio four one four">Studio four one four</a></h1>
+          <div class="menu-main-navigation-container">
+            <ul id="nav" class="menu">
+              <li><a href="/portfolio">Portfolio</a></li>
+              <li><a href="/people">People</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/blog">Blog</a></li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+        </div><!--/navwrap-->
+      </div><!--/header-->
+    </div><!--/hwrap-->
+
+    <div id="cwrap" style="background: none;">
+      <div id="controls-wrapper" class="load-item">
+        <div id="controls">
+          <a id="nextslide" class="load-item" style="display: block;">NEXT</a>
+          <a id="play-button"><img src="{{ "/img/pause.png" | prepend: site.baseurl }}" id="pauseplay" /></a>
+          <a id="prevslide" class="load-item" style="display: block; opacity: 0.6;">PREVIOUS</a>
+          <div id="slidecaption"></div>
         </div>
-        <div class="clear"></div>
-      </div><!--/navwrap-->
-    </div><!--/header-->
-  </div><!--/hwrap-->
-  <div id="cwrap" style="background: none;">
-  
-  <div id="controls-wrapper" class="load-item">
-    <div id="controls">
-      
-      <a id="nextslide" class="load-item" style="display: block;">NEXT</a>
-      <a id="play-button"><img src="{{ "/img/pause.png" | prepend: site.baseurl }}" id="pauseplay" /></a>
-      <a id="prevslide" class="load-item" style="display: block; opacity: 0.6;">PREVIOUS</a>
+      </div>
+    </div><!--/cwrap-->
 
-      <div id="slidecaption"></div>
-      
-    </div>
-  </div>
+  </body>
   
-    
-  </div><!--/cwrap-->
-
-</body>  
 </html> 
