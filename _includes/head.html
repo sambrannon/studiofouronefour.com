@@ -1,12 +1,111 @@
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<head>  
+  <meta charset="utf-8">  
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> 
+  
+  <link rel="shortcut icon" href="wp-content/uploads/2012/01/favicon2.gif" />
+  
+  <meta name="description" content="Studio four one four is a group of designers that have come together to collectively better their skills."/>
+  <meta name="keywords" content="Milwaukee Design, studio four one four, studio 414, architecture design"/> 
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="wp-content/themes/s414/css/supersized.css" media="screen" />
+  <script type="text/javascript" src="wp-content/themes/s414/js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="wp-content/themes/s414/js/supersized.3.1.3.min.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#header").addClass("scroll-header");
+    });
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 160) { //I just used 200 for testing
+            $("#header").addClass("fixed-header").removeClass("scroll-header");
+        } else {
+            $("#header").removeClass("fixed-header").addClass("scroll-header"); //same here
+        }                           
+    });
+  </script>
+
+  <style type="text/css">
+    #supersized a{
+      z-index:-30;
+      position:absolute;
+      overflow:hidden;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background: #e2e2e2 url("wp-content/uploads/2012/01/bg-hatch02.png") 0 0 repeat;
+    }
+  </style>
+  <script type="text/javascript">  
+      
+    jQuery(function($){
+      $.supersized({
+      
+        slideshow: 1,
+        autoplay: 1,
+        start_slide: 1,
+        random: 0,
+        slide_interval: 5000,
+        transition: 1,
+        transition_speed: 500,
+        new_window: 0,
+        pause_hover: 0,
+        keyboard_nav: 1,
+        performance: 1,
+        image_protect: 1,
+        image_path: 'http://studiofouronefour.com/wp-content/themes/s414/images/',
+
+        //Size & Position
+        min_width: 0,
+        min_height: 0,
+        vertical_center: 1,
+        horizontal_center: 1,
+        fit_portrait: 1,
+        fit_landscape: 0,
+        
+        //Components
+        navigation: 1,
+        thumbnail_navigation: 0,
+        slide_counter: 1,
+        slide_captions: 1,
+        slides: [
+          {
+            image : 'http://studiofouronefour.com/wp-content/uploads/2012/03/slide.jpg',
+            title : '<a href="/?p=445">Rustic Reinvention &rarr;</a>',
+            url : ''
+          },
+          {
+            image : 'http://studiofouronefour.com/wp-content/uploads/2012/03/slide1.jpg',
+            title : '<a href="/?p=432">Freeway Loft &rarr;</a>', url : ''
+          },
+          {
+            image : 'http://studiofouronefour.com/wp-content/uploads/2012/02/sensory_rehab-full.jpg',
+            title : '<a href="/?p=279">Sensor[y Rehab]ilitation &rarr;</a>',
+            url : ''
+          },
+          {
+            image : 'http://studiofouronefour.com/wp-content/uploads/2012/02/urban_repose-full.jpg',
+            title : '<a href="/?p=289">Urban Repose &rarr;</a>',
+            url : ''
+          }
+        ]
+                      
+      }); 
+    });
+      
+  </script>
+        
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-28551508-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+<script type='text/javascript' src='http://studiofouronefour.com/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>  
 </head>
