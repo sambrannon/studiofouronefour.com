@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /blog/
+---
+
+<div id="posts">
+
+  {% for post in site.posts %}
+
+    <div class="post">
+      <div class="posthead">
+        <img src="{{ "/img/blog/" | prepend: site.baseurl }}{{ post.image }}" />
+        <h1><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }} &rarr;</a></h1>
+      </div>
+      <div class="postcontent">
+        {{ post.excerpt }}
+        <p><a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Read more&#8230;</a></p>
+      </div>
+      <div class="postfooter">
+        <span class="meta">Posted on {{ post.date | date: "%b %-d, %Y" }} by Sam Brannon</span>
+      </div>
+    </div>
+
+  {% endfor %}
+
+</div><!-- /#posts -->

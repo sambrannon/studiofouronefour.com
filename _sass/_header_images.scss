@@ -1,0 +1,19 @@
+// Default
+body #hwrap{
+  background: url("../img/header-bg-mam01.jpg") top center no-repeat;
+}
+
+// Home
+body.home #hwrap{
+  background: none;
+}
+
+// Portfolio
+body.portfolio #hwrap{
+  background-image: url("../img/scale-wall-header-bg01.jpg");
+}
+
+// People
+body.people #hwrap{
+  background-image: url("../img/team/team4141.jpg");
+}

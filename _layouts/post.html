@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="{{ page.id }}">
+
+    {% include header.html %}
+
+    <div id="cwrap">
+      <div id="posts">
+        <div class="post">
+          <div class="posthead">
+            <img src="{{ "/img/blog/" | prepend: site.baseurl }}{{ page.image }}" />
+            <h1><span class="singletitle">{{ page.title }}</span></h1>
+          </div>
+          <div class="postcontent">
+
+            {{ content }}
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

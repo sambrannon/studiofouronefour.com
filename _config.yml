@@ -1,0 +1,14 @@
+# Site settings
+title: Studio four one four
+email: sam@branberg.com
+description: > # this means to ignore newlines until "baseurl:"
+  Studio four one four is a group of designers that have come together to collectively better their skills.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://studiofouronefour.com" # the base hostname & protocol for your site
+facebook_url: https://www.facebook.com/studiofouronefour
+linkedin_url:  https://www.linkedin.com/company/studio-four-one-four
+
+# Build settings
+markdown: kramdown
+
+excerpt_separator: <!--more-->
