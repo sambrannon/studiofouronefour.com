@@ -19,5 +19,3 @@ The figurative tunnel “journey” for each person would be to gradually take e
 Team members included: Alex Harm, Joe Buccini, Nick Mather, Ryan Bratz
 
 <a href="#" class="download-btn">View Project in Portfolio</a>
-
-<a href="{{ "/downloads/" | prepend: site.baseurl }}sensory_rehabilitation_texture_pack.zip" class="download-btn">Download texture package for this project</a>
