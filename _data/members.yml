@@ -1,0 +1,29 @@
+- name: Eric Barch
+  photo_path: "eric_barch.jpg"
+
+- name: Sam Brannon
+  photo_path: "sam_brannon.jpg"
+
+- name: Ryan Bratz
+  photo_path: "ryan_bratz.jpg"
+
+- name: Joe Buccini
+  photo_path: "joe_buccini.jpg"
+
+- name: Alex Harm
+  photo_path: "alex_harm2.jpg"
+
+- name: Becky Lecey
+  photo_path: "rebecca_lecey.jpg"
+
+- name: Nathan Lochner
+  photo_path: "nate_lochner.jpg"
+
+- name: Ben Mather
+  photo_path: "ben_mather1.jpg"
+
+- name: Nick Mather
+  photo_path: "nick_mather1.jpg"
+
+- name: Paul Steidl
+  photo_path: "paul_steidl.jpg"
